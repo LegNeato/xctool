@@ -35,5 +35,14 @@
       <FileRef
          location = "group:Project.xcconfig">
       </FileRef>
+      <FileRef
+         location = "group:InstallToBin.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:InstallToLibExec.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:InstallToLib.xcconfig">
+      </FileRef>
    </Group>
 </Workspace>

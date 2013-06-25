@@ -1,0 +1,7 @@
+// Install to $(DSTROOT)/lib
+INSTALL_PATH = /lib
+
+// Make sure our product ends up under Build/Products/Debug/lib/...
+DEPLOYMENT_LOCATION = YES
+DSTROOT = $(BUILT_PRODUCTS_DIR)
+DWARF_DSYM_FOLDER_PATH = $(DSTROOT)$(INSTALL_PATH)

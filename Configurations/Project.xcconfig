@@ -15,3 +15,5 @@
 //
 
 GCC_TREAT_WARNINGS_AS_ERRORS = YES
+
+DSTROOT = /usr/local/xctool
